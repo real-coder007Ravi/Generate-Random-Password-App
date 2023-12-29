@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Generate Random Password</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<script defer src="js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Password Generator App</h1>
+			<p>
+				Here You can come and create random password for login details which are
+				more secure
+			</p>
+		</header>
+		<main>
+			<div class="container">
+				<h2>Generate Your <br /><span> Random Password </span></h2>
+				<div class="display">
+					<input type="text" id="password" placeholder="Password" />
+					<img
+						src="./assets/images/copy.png"
+						onclick="copyPassword()"
+						alt="Contains Copy Text Image"
+					/>
+				</div>
+				<button
+					onclick="generatePassword()"
+					type="button"
+					title="For Generating password"
+				>
+					<img
+						src="./assets/images/generate.png"
+						alt="Contains generate password icon"
+					/>Generate Password
+				</button>
+			</div>
+		</main>
+		<footer>
+			<p>Copyright&copy;Ravi Kumar Gupta,2023</p>
+			<p>
+				The contents of this site could be found from this
+				<a
+					href="https://github.com/real-coder007Ravi/Generate-Random-Password-App"
+					>repository</a
+				>
+			</p>
+		</footer>
+	</body>
+</html>
