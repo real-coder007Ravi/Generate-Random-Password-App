@@ -1,4 +1,4 @@
-                                                                                       ## Generate Random Password Using HTML, CSS AND VANILLA JS
+<center>## Generate Random Password Using HTML, CSS AND VANILLA JS</center>
                                                                                        
 
 Simply Create on Generate Password Button and get Random password to use for your Login Credentials
